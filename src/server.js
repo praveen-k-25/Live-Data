@@ -22,7 +22,7 @@ app.use(
 app.use(express.json());
 const PORT = process.env.PORT || 4005;
 
-app.use("/neelan", geoRouter);
+app.use("/api", geoRouter);
 
 app.use(GlobalErrorHandler);
 
